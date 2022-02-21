@@ -13,6 +13,7 @@ const square1 = square(2);
 square1.draw();
 
 // Shape Object-----------------------------------
+
 function Shape(color){
     this.color = color;
 }
@@ -59,6 +60,7 @@ function extend (Child, Parent) { // this is intermidiate function inherticance
 extend(Square, Shape);
 
 // Prototype member: -------------------------------------------
+
 Square.prototype.draw = function() {
     console.log('nu sa desenez boss, da mni latura: ' + this.edge);
 };
